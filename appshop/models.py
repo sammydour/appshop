@@ -19,4 +19,13 @@ class Offer(models.Model):
     discription = models.CharField(max_length=255)
     discount = models.FloatField()
     image_url = models.CharField(max_length=2083)
+
+class Blog(models.Model):
+
+    object = models.Manager()
+    edit = models.CharField
+    date = models.CharField
+
+
+
 # Create your models here.

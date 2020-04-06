@@ -8,11 +8,11 @@ def index(request):
     return render(request, 'index.html', {"appshop": appshop})
 
 
-def new(request):
-    return HttpResponse("new products")
+def Blog(request):
+    return render(request, 'Blog.html', {"appshop": Blog})
 
 
 def Offer(request):
-    return render(request, 'offer.html', {"appshop": Offer })
+    return render(request, 'offer.html', {"appshop": Offer})
 
 # Create your views here.
